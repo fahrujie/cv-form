@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="asset/styles.css">
+    <link rel="stylesheet" href="asset/about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <input type="radio" name = "radio" id = "open">
+    <input type="radio" name = "radio" id = "close" checked>
+    <!-- nav -->
+    <nav>
+      <div class="left-side">
+        <a href="index.html"><h1>FAHRUJI</h1></a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="home.html" class = "page-scroll">Home</a></div>
+        <div class="nav-link-wrapper"><a href="aboutus.html" class = "page-scroll">About Us</a></div>
+        <div class="nav-link-wrapper"><a href="articel.html" class = "page-scroll">Portfolio</a></div>
+        <!-- <div class="nav-link-wrapper"><a href="contact.html" class = "page-scroll">Contact</a></div> -->
+      </div>
+      <label for = "open" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for="close" class = "cross">
+        <span></span>
+        <span></span>
+      </label>
+    </nav>
+
+    <!-- home -->
+    <div class="container-home" id = "home">
+      <img src="img/fahruji.jpg" alt="">
+      <h1>FAHRUJI</h1>
+      <p>Sarjana | Ilmu Komputer | Universitas Pamulang</p>
+      <br>
+      <br>
+    </div>
+
+    <!-- about -->
+    <div class="about-section">
+      <div class="inner-width">
+          <h1>About Me</h1>
+          <div class="border"></div>
+          <div class="about-section-row">
+              <div class="about-section-col">
+                  <div class="about">
+                    <h2>Hallo</h2>
+                    <p>
+                      Saya Fahruji, Sarjana Ilmu Komputer Universitas Pamulang periode tahun ajaran 2022/2023. Aktivitas terakhir saat ini aktif sebagai pencari kerja dan selama kuliah menguasai ilmu komputer seperti Mobile Application Developer, Web Developer, dan Software Engineer. Saya memiliki minat berkarir sebagai Programmer dan mahir dalam bidang Web Developer dan Mobile Application Developer.
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- projects -->
+    <div class="container-projects" id = "projects">
+      <h1>Project</h1>
+      <hr class="split">
+      <div class="cards">
+
+        <a href="artikel1.html">
+          <div class="card">
+            <img src="img/porto.jpeg" alt="">
+            <p>Magang</p>
+          </div>
+        </a>
+
+        <a href="artikel2.html">
+          <div class="card">
+            <img src="img/porto.jpeg" alt="">
+            <p>Uji Kompetensi</p>
+          </div>
+        </a>
+        <a href="artikel3.html">
+          <div class="card">
+            <img src="img/porto.jpeg" alt="">
+            <p>Skripsi/Tugas Akhir</p>
+          </div>
+        </a>
+        </a>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <p>Copyright 2022 | Build by Fahruji</p>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src = "asset/script.js"> </script>
+  </body>
+</html>
